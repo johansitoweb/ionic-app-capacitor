@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css">
+    <script src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar>
+                <ion-title>Lista de Tareas johansitoweb</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-list id="task-list">
+                <!-- Las tareas se cargarán aquí -->
+            </ion-list>
+            <ion-item>
+                <ion-input id="new-task" placeholder="Nueva tarea"></ion-input>
+                <ion-button onclick="addTask()">Agregar</ion-button>
+            </ion-item>
+        </ion-content>
+    </ion-app>
+    <script src="app.js"></script>
+</body>
+</html>

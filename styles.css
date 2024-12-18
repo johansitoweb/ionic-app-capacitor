@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ion-header {
+    --background: #3880ff;
+    --color: white;
+}
+
+ion-content {
+    --background: #eee9e9;
+}
+
+ion-item {
+    --background: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ion-button {
+    margin-left: 10px;
+}
